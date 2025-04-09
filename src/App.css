@@ -1,0 +1,153 @@
+:root {
+  --dark-bg: #121212;
+  --text-color: #F4F4F4;
+  --accent-color: #C9F05B;
+  --button-color: #C9F05B;
+  --button-text: #121212;
+}
+
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--dark-bg);
+  color: var(--text-color);
+  position: relative;
+}
+
+.app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header div{
+  display: flex;
+  align-items: center;
+}
+
+header img{
+  height: 30px;
+  margin-right: 0.5rem;
+}
+header p{
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  margin: 0;
+}
+
+header ul{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+header li{
+  margin: 0 1rem;
+}
+
+header a{
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+  padding: 0.5rem;
+}
+
+header a:hover{
+  color: var(--accent-color);
+}
+
+select{
+  background-color: transparent;
+  color: var(--text-color);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* Hero section styles */
+.hero-sect{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-sect h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-sect p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.connect-btn {
+  background-color: var(--button-color);
+  color: var(--button-text);
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.connect-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.5rem 2rem;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+footer li {
+  margin: 0 1rem;
+}
+
+footer a {
+  color:#6D784C;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--accent-color);
+}
+
+footer p {
+  color: #f4f4f4;
+  margin: 0;
+  font-size: 0.9rem;
+}
