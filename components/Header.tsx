@@ -11,7 +11,7 @@ const Header: React.FC<HeaderProps> = ({ walletConnected, walletAddress }) => {
     <header>
       <div>
         <div className="logo">
-          <img src="../img/logo.png" alt="logo" />
+          <img src="../assets/logo.png" alt="logo" />
           <p>TruthCheck</p>
         </div>
       </div>
@@ -30,7 +30,7 @@ const Header: React.FC<HeaderProps> = ({ walletConnected, walletAddress }) => {
         </select>
       </div>
       <div>
-        <button className='Btn'>Connect</button>
+        <button className='Btn'>Contact us</button>
       </div>
       {walletConnected && (
         <div className="wallet-info">

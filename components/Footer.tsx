@@ -11,7 +11,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <p>Fighting Misinformation with Blockchain ©TruthCheck 2025</p>
+        <p>Fighting Misinformation in Nigeria with Quick Check Tool ©TruthCheck 2025</p>
       </div>
     </footer>
   );

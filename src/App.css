@@ -1,6 +1,6 @@
 :root {
   --dark-bg: #121212;
-  --text-color: #F4F4F4;
+  --text-color: #001F1E;
   --accent-color: #00A493;
   --button-color: #1B989F;
   --button-text: #ffff;
@@ -40,7 +40,7 @@ header img{
 }
 header p{
   font-size: 1.2rem;
-  color: var(--accent-color);
+  color: #00A493;
   margin: 0;
 }
 
@@ -71,8 +71,8 @@ header a:hover{
 select{
   background-color: transparent;
   color: var(--text-color);
-  background-color: #222121;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #ffff;
+  border: 1px solid rgba(112, 112, 112, 0.1);
   padding: 0.3rem 0.5rem;
   border-radius: 4px;
 }
@@ -87,47 +87,52 @@ select{
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2rem;
+  padding: 3rem;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-sect h1 {
-  color: #0000;
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-top: 10%;
 }
 
 .hero-sect p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  max-width: 600px;
+  font-size: 1.4rem;
+  font-weight: medium;
+  line-height: 33px;
+  margin-bottom: 5%;
+ 
 }
 
 .Btn{
   color: var(--button-text);
   border: none;
   width: 100%;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 1.2rem;
   font-size: 1rem;
   font-weight: bold;
-  border-radius: 0.5rem;
+  border-radius: 7px;
   cursor: pointer;
   background-color: #1B989F;
   margin-right: 20px;
 }
 
-.connect-btn {
+.select-btn {
   background-color: var(--button-color);
   color: var(--button-text);
+  font-size: 0.5rem;
   border: none;
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 1rem;
+  margin-bottom: 10%;
   font-size: 1rem;
-  font-weight: bold;
-  border-radius: 0.5rem;
+  font-weight: 500;
+  border-radius: 10px;
   cursor: pointer;
   transition: transform 0.2s;
 }
 
-.connect-btn:hover {
+.select-btn:hover {
   transform: scale(1.05);
 }
 
@@ -156,7 +161,7 @@ footer li {
 }
 
 footer a {
-  color:#6D784C;
+  color:#f4f4f4;
   text-decoration: none;
 }
 
@@ -166,6 +171,6 @@ footer a:hover {
 
 footer p {
   color: #f4f4f4;
-  margin: 0;
-  font-size: 0.9rem;
+  margin: 20px;
+  font-size: 0.8rem;
 }
