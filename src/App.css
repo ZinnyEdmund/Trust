@@ -1,15 +1,14 @@
 :root {
   --dark-bg: #121212;
   --text-color: #F4F4F4;
-  --accent-color: #C9F05B;
-  --button-color: #C9F05B;
-  --button-text: #121212;
+  --accent-color: #00A493;
+  --button-color: #1B989F;
+  --button-text: #ffff;
 }
 
 body{
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: var(--dark-bg);
   color: var(--text-color);
   position: relative;
 }
@@ -22,6 +21,7 @@ body{
 }
 
 header{
+  background-color: #ffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,6 +71,7 @@ header a:hover{
 select{
   background-color: transparent;
   color: var(--text-color);
+  background-color: #222121;
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 0.3rem 0.5rem;
   border-radius: 4px;
@@ -78,6 +79,8 @@ select{
 
 /* Hero section styles */
 .hero-sect{
+  background: url(assets/bg1.png);
+  background-repeat: no-repeat;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -88,6 +91,7 @@ select{
 }
 
 .hero-sect h1 {
+  color: #0000;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
@@ -96,6 +100,19 @@ select{
   font-size: 1.2rem;
   margin-bottom: 2rem;
   max-width: 600px;
+}
+
+.Btn{
+  color: var(--button-text);
+  border: none;
+  width: 100%;
+  padding: 0.5rem 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #1B989F;
+  margin-right: 20px;
 }
 
 .connect-btn {
@@ -118,6 +135,7 @@ select{
 footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 1.5rem 2rem;
+  background-color: #08675F;
 }
 
 footer div {
